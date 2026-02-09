@@ -1,5 +1,4 @@
-import sys
-from game.board import Board
+from src.game.board import Board
 
 board = Board()
 board.setup_terrain()

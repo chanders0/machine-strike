@@ -1,4 +1,4 @@
-from game.tile import Tile
+from src.game.tile import Tile
 import random
 
 class Board:
@@ -6,6 +6,7 @@ class Board:
         self.size = 8
         self.grid = [[None for _ in range(self.size)] for _ in range(self.size)]
     
+    # TO DO: add additional terrain types
     def setup_terrain(self):
         terrain_options = [
             ("grassland", 0),
